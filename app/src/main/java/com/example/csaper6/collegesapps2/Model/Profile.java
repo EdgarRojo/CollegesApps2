@@ -10,6 +10,10 @@ public class Profile {
     private Date birthday;
     private String lname;
 
+    public Profile(String fname) {
+        this.fname = fname;
+    }
+
     public String getFname() {
         return fname;
     }
